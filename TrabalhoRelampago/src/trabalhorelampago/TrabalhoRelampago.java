@@ -31,7 +31,7 @@ public class TrabalhoRelampago {
         System.out.println("Lista antes de ordenar :");
         lista.mostrar();
         lista.resulta(lista.mergeSort(lista.extraiPrimeiro()));
-        System.out.println("Lista depois de ordenar :");
+        System.out.println("\n" + "Lista depois de ordenar :");
         lista.mostrar();
 
         //lista.nodeSort(lista.primeiro);

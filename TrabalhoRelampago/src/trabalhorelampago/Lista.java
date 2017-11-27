@@ -78,13 +78,13 @@ public class Lista {
      * exemplo: [Aeroan][Aeroberto][Aerowski]
      *
      */
-    public void mostrar() {
+    public String mostrar() {
         Nodo atual = primeiro;
         while (atual != null) {
             atual.mostrarNodo();
             atual = atual.proximo;
         }
-        System.out.println("");
+        return " ";
 
 //        merge(this.primeiro, this.primeiro.proximo);
 //        String aerolito = "";
