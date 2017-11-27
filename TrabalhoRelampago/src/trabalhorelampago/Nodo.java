@@ -14,5 +14,11 @@ public class Nodo {
         this.proximo = null;
     }
     
+    public Nodo() {
     
+    }
+    
+    public void mostrarNodo() {
+        System.out.print("[" + objeto.nome + "] ");
+    }
 }
