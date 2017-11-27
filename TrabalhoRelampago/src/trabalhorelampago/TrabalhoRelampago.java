@@ -15,7 +15,22 @@ public class TrabalhoRelampago {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Lista lista = new Lista();
+       Aerolito a1 = new Aerolito("teobaldo", 4, 12, 5);
+       Aerolito a2 = new Aerolito("teo", 3, 12, 5);
+       Aerolito a3 = new Aerolito("baldo", 7, 12, 5);
+       Aerolito a4 = new Aerolito("obaldo", 2, 12, 5);
+       Aerolito a5 = new Aerolito("teoba", 1, 12, 5);
+       
+       lista.adicionar(a1);
+       lista.adicionar(a2);
+       lista.adicionar(a3);
+       lista.adicionar(a4);
+       lista.adicionar(a5);
+       
+       
+        //lista.nodeSort(lista.primeiro);
+        System.out.println(lista.mostrar());
     }
     
 }

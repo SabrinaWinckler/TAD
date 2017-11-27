@@ -1,3 +1,5 @@
+package trabalhorelampago;
+
 /**
  * Essa classe não é uma Pedra!
  * @author Jean
@@ -15,5 +17,12 @@ public class Aerolito {
         this.largura = l;
         this.comprimento = c;
     }
+
+    public double compareTo(Aerolito aerolito) {
+        return aerolito.altura;
+    }
     
+    public String toString(){
+        return "[" + this.nome + "]";
+    }
 }
